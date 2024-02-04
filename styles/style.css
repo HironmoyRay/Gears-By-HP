@@ -6,14 +6,14 @@
   font-family: "Roboto", sans-serif;
 }
 
-/* /////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////// */
 /* Nav Section Added */
-/* /////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////// */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 10px 20px;
+  margin: 20px;
 }
 .nav-title h1 {
   font-size: 1.5rem;
@@ -52,10 +52,36 @@ li:hover i {
   color: gray;
 }
 
+/* ////////////////////////////////////////////////////////////// */
+/* Heading Section Added */
+/* ////////////////////////////////////////////////////////////// */
+.heading-section {
+  display: flex;
+  margin: 20px;
+  text-align: center;
+  align-items: center;
+}
+.heading-description {
+  width: 50%;
+  padding: 50px;
+}
+.img-div {
+  width: 50%;
+  background-image: url(../images/Circle\ design.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.img-div img {
+  width: 75%;
+  padding: 50px;
+}
+
 /* /////////////////////////////////////////////////////////////////////////////////////////// */
 /* For Mobile Device */
 /* /////////////////////////////////////////////////////////////////////////////////////////// */
 @media only screen and (max-width: 676px) {
+  /* Responsive NavBar for Mobile Device */
   nav {
     justify-content: space-between;
   }
@@ -70,6 +96,20 @@ li:hover i {
   }
   .cart {
     display: block;
+  }
+  /* Responsive Heading Section for Mobile Device */
+  .heading-section {
+    flex-direction: column-reverse;
+  }
+  .heading-description {
+    width: 100%;
+    padding: 20px;
+  }
+  .img-div {
+    width: 100%;
+  }
+  .img-div img {
+    padding: 20px;
   }
 }
 
