@@ -5,17 +5,14 @@
   padding: 0px;
   font-family: "Roboto", sans-serif;
 }
-h2,
-p {
-  margin: 10px 20px;
-  text-align: center;
-}
 .primary-text {
   color: gray;
+
 }
 .primary-btn {
   border: 0px;
   border-radius: 20px;
+  margin-top: 20px;
   padding: 10px 30px;
   color: white;
   font-weight: bolder;
@@ -83,6 +80,7 @@ li:hover i {
 }
 .heading-title {
   font-size: 2.5rem;
+  margin: 20px;
 }
 
 .heading-img-div {
@@ -107,15 +105,33 @@ li:hover i {
   border-width: 2px;
   border-style: solid;
   border-left: 0px;
-  border-image: linear-gradient(to right, black, white) 1 ;
+  border-image: linear-gradient(to right, black, white) 1;
+}
+.sponsor-img-div {
+  display: inline;
+  width: 100%;
+}
+.sponsor-img-div img {
+  padding: 20px 30px;
+}
 
+/* ///////////////////////////////////////////////////////// */
+/* Cart Section */
+/* ///////////////////////////////////////////////////////// */
+.cart-title-div{
+    text-align: center
 }
-.sponsor-img-div{
-    display: inline;
+.carts-div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.cart-div{
+    margin: 10px;
+    padding: 10px;
+}
+.cart-img-div img{
     width: 100%;
-}
-.sponsor-img-div img{
-    padding: 20px 30px;
 }
 
 /* /////////////////////////////////////////////////////////////////////////////////////////// */
@@ -155,9 +171,9 @@ li:hover i {
   }
 
   /* Sponsor section for Mobile Device */
-  .sponsor-img-div img{
+  .sponsor-img-div img {
     padding: 10px;
-}
+  }
 }
 
 /* /////////////////////////////////////////////////////////////////////////////////////////// */
@@ -179,8 +195,8 @@ li:hover i {
   .cart {
     display: block;
   }
-    /* Sponsor section for Tablet Device */
-    .sponsor-img-div img{
-        padding: 20px;
-    }
+  /* Sponsor section for Tablet Device */
+  .sponsor-img-div img {
+    padding: 20px;
+  }
 }
