@@ -5,20 +5,21 @@
   padding: 0px;
   font-family: "Roboto", sans-serif;
 }
-h2,p{
-    margin: 10px 20px;
-    text-align: center;
+h2,
+p {
+  margin: 10px 20px;
+  text-align: center;
 }
-.primary-text{
-    color: gray;
+.primary-text {
+  color: gray;
 }
-.primary-btn{
-    border: 0px;
-    border-radius: 20px;
-    padding: 10px 30px;
-    color: white;
-    font-weight: bolder;
-    background-color: #EA1179;
+.primary-btn {
+  border: 0px;
+  border-radius: 20px;
+  padding: 10px 30px;
+  color: white;
+  font-weight: bolder;
+  background-color: #ea1179;
 }
 
 /* ////////////////////////////////////////////////////////////// */
@@ -80,19 +81,41 @@ li:hover i {
   width: 50%;
   padding: 50px;
 }
-.heading-title{
-    font-size: 2.5rem;
+.heading-title {
+  font-size: 2.5rem;
 }
-.img-div {
+
+.heading-img-div {
   width: 50%;
   background-image: url(../images/Circle\ design.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
-.img-div img {
+.heading-img-div img {
   width: 75%;
   padding: 50px;
+}
+
+/* ////////////////////////////////////////////////// */
+/* Sponsor Section */
+/* ///////////////////////////////////////////////// */
+.sponsor-section {
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  border-width: 2px;
+  border-style: solid;
+  border-left: 0px;
+  border-image: linear-gradient(to right, black, white) 1 ;
+
+}
+.sponsor-img-div{
+    display: inline;
+    width: 100%;
+}
+.sponsor-img-div img{
+    padding: 20px 30px;
 }
 
 /* /////////////////////////////////////////////////////////////////////////////////////////// */
@@ -124,12 +147,17 @@ li:hover i {
     width: 100%;
     padding: 20px;
   }
-  .img-div {
+  .heading-img-div {
     width: 100%;
   }
-  .img-div img {
+  .heading-img-div img {
     padding: 20px;
   }
+
+  /* Sponsor section for Mobile Device */
+  .sponsor-img-div img{
+    padding: 10px;
+}
 }
 
 /* /////////////////////////////////////////////////////////////////////////////////////////// */
@@ -151,4 +179,8 @@ li:hover i {
   .cart {
     display: block;
   }
+    /* Sponsor section for Tablet Device */
+    .sponsor-img-div img{
+        padding: 20px;
+    }
 }
