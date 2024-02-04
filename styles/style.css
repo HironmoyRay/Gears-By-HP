@@ -1,6 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+/* Nav Section Added */
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin: 10px 20px;
+}
+.bar {
+  display: none;
 }
 nav ul {
   display: flex;
@@ -12,4 +28,108 @@ nav ul li {
 }
 ul li a {
   text-decoration: none;
+  color: black;
+}
+.cart {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+/* For Mobile Device */
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (max-width: 676px) {
+  nav {
+    justify-content: space-between;
+  }
+  .nav-title {
+    text-align: center;
+  }
+  .bar {
+    display: block;
+  }
+  .ul-div {
+    display: none;
+  }
+  .cart {
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+/* For Tablet Device */
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (min-width: 676px) and (max-width: 992px) {
+  nav {
+    justify-content: space-between;
+  }
+  .nav-title {
+    text-align: center;
+  }
+  .bar {
+    display: block;
+  }
+  .ul-div {
+    display: none;
+  }
+  .cart {
+    display: block;
+  }
 }
