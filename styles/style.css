@@ -15,6 +15,9 @@ nav {
   align-items: center;
   margin: 10px 20px;
 }
+.nav-title h1 {
+  font-size: 1.5rem;
+}
 .bar {
   display: none;
 }
@@ -33,38 +36,21 @@ ul li a {
 .cart {
   display: none;
 }
+/*Nav Hover Section  */
+/* /////////////////////////////////////// */
+.bar:hover i {
+  color: gray;
+}
+.cart:hover i {
+  color: gray;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+li:hover a {
+  color: gray;
+}
+li:hover i {
+  color: gray;
+}
 
 /* /////////////////////////////////////////////////////////////////////////////////////////// */
 /* For Mobile Device */
@@ -86,32 +72,6 @@ ul li a {
     display: block;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* /////////////////////////////////////////////////////////////////////////////////////////// */
 /* For Tablet Device */
