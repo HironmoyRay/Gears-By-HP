@@ -173,6 +173,31 @@ li:hover i {
 .feature-description-div button {
   border-radius: 0px;
 }
+/* ////////////////////////////////////////////////// */
+/* Footer Section */
+/* ////////////////////////////////////////////////// */
+footer{
+    color: white;
+    background-color: #071952;
+    text-align: center;
+    margin: 20px 0px;
+    padding: 40px;
+}
+.symbol-div{
+    display: flex;
+    justify-content: center;
+}
+.social-icon{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    background-color:rgba(190, 190, 190, 0.206) ;
+    align-self: center;
+}
+.social-icon i{
+    margin-top: 6px;
+}
 
 /* /////////////////////////////////////////////////////////////////////////////////////////// */
 /* For Mobile Device */
