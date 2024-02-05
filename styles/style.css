@@ -127,11 +127,14 @@ li:hover i {
     
 }
 .cart-div{
-    margin: 10px;
-    padding: 10px;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 5px grey;
 }
 .cart-img-div img{
     width: 100%;
+    border-radius: 5px;
 }
 
 /* /////////////////////////////////////////////////////////////////////////////////////////// */
@@ -170,10 +173,22 @@ li:hover i {
     padding: 20px;
   }
 
-  /* Sponsor section for Mobile Device */
+  /*Responsive Sponsor section for Mobile Device */
   .sponsor-img-div img {
     padding: 10px;
   }
+
+  /* Responsive Cart Section for Mobile Device */
+  .carts-div{
+    grid-template-columns: repeat(1, 1fr);
+    
+}
+.cart-img-div{
+    text-align: center;
+}
+.cart-div{
+    padding: 30px;
+}
 }
 
 /* /////////////////////////////////////////////////////////////////////////////////////////// */
@@ -199,4 +214,10 @@ li:hover i {
   .sponsor-img-div img {
     padding: 20px;
   }
+    /* Responsive Cart Section for Tablet Device */
+    .carts-div{
+    
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
 }
